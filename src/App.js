@@ -6,7 +6,9 @@ import Secret from "./components/Secret";
 import NotFound from "./components/NotFound";
 import Callback from "./components/Callback";
 
+console.log(this.props.location)
 class App extends Component {
+
   render() {
     let mainComponent = "";
     switch(this.props.location) {
