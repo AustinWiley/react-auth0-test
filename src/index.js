@@ -19,8 +19,7 @@ let user_email_id = auth.getProfile().email || "genericuser@gmail.com";
 
 let initialState = {
     name: user_email_id,
-    location: location.pathname.replace(/^\/?|\/$/g, ""),
-    auth
+    location: window.location.origin
 }; 
 
 window.setState(initialState);
