@@ -1,4 +1,5 @@
 # React-Auth0
+
 This is a Starter kit for any of my react apps that I want to add Authorization.  I already Built it out so its easy to stitch it into a project.
 
 ### Add to a react project
